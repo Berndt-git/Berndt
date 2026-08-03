@@ -288,9 +288,9 @@
   .npc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
   .npc-card { display: flex; gap: 14px; align-items: flex-start; background: var(--paper-card-soft); border: 1px solid var(--gold-soft); border-radius: 8px; padding: 16px 18px; transition: transform 0.15s ease, box-shadow 0.15s ease; }
   .npc-card:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(43,33,24,0.12); }
-  .npc-portrait { width: 64px; height: 64px; min-width: 64px; object-fit: cover; border-radius: 8px; border: 2px solid var(--gold-soft); background: var(--paper); }
+  .npc-portrait { width: 88px; height: 88px; min-width: 88px; object-fit: cover; border-radius: 8px; border: 2px solid var(--gold-soft); background: var(--paper); }
   .npc-portrait-pair { display: flex; gap: 5px; flex-shrink: 0; }
-  .npc-portrait-pair img { width: 44px; height: 64px; object-fit: cover; border-radius: 6px; border: 2px solid var(--gold-soft); background: var(--paper); }
+  .npc-portrait-pair img { width: 60px; height: 88px; object-fit: cover; border-radius: 6px; border: 2px solid var(--gold-soft); background: var(--paper); }
   .npc-content { flex: 1; min-width: 0; }
   .npc-card h3 { font-family: var(--font-display); font-size: 1.2rem; margin: 0 0 2px; color: var(--ink); }
   .npc-card .role { font-size: 0.82rem; font-style: italic; color: var(--ink-soft); margin: 0 0 8px; }
@@ -552,6 +552,26 @@
             <p class="desc">Byens læge. Nægtede at flygte, selv da invasionen var værst. Behandler stadig sårede gratis — spørg bare efter "Dami".</p>
           </div>
         </article>
+        <article class="npc-card" data-district="northridge" data-name="nakamura yu ming mama bao dampbolle kok northridge spisested boller">
+          <img class="npc-portrait" src="Nakamura_Yu_Ming.JPG" alt="Nakamura Yu Ming" loading="lazy">
+          <div class="npc-content">
+            <span class="tag tag-northridge">Northridge &middot; Kok</span>
+            <h3>Nakamura Yu Ming</h3>
+            <p class="role">"Mama Bao" &middot; dampbolle-boden</p>
+            <p class="desc">Driver byens hyggeligste lille spisested og kender sine stamgæsters appetit bedre, end de selv gør. Da hendes dampboller en morgen begyndte at servere mere end dej, hjalp I hende med at forsone en gammel familieånd — Hinode Akari.</p>
+          </div>
+        </article>
+
+        <article class="npc-card" data-district="northridge" data-name="yun mong-un guild master træskærer woodcarver peachwood northridge fulu">
+          <img class="npc-portrait" src="Yun_Mong_Un.JPG" alt="Yun Mong-Un" loading="lazy">
+          <div class="npc-content">
+            <span class="tag tag-northridge">Northridge &middot; Guild master</span>
+            <h3>Yun Mong-Un</h3>
+            <p class="role">Woodcarver's Guild</p>
+            <p class="desc">Valgt guild master for byens træskærerlav og en usædvanligt dygtig håndværker — selvom hun helst havde været maler eller smykkemager. Det er hende, der kan forvandle peachwood til de sjældne fulu'er, Igawa Jubei bruger.</p>
+          </div>
+        </article>
+
         <article class="npc-card" data-district="southbank" data-name="matsu kok chef pensioneret ungkarl southbank">
           <img class="npc-portrait" src="Matsu.jpg" alt="Matsu" loading="lazy">
           <div class="npc-content">
